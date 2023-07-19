@@ -1,4 +1,4 @@
-#inchude "main.h"
+#include "main.h"
 
 /**
  * _isalpha - Ckecks for alphabetic character
