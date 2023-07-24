@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _strlen - check the length of a string
+ * _strlen - checks the length of a string
  * @s: -string to be checked
  * Return: The length of a string
  */
 
-int _strlen(char *s);
+int _strlen(char *s)
 {
 int string_length = 0;
 
