@@ -13,7 +13,7 @@ int i;
 int j;
 
 i = 0;
-while (dest[i] != '\10')
+while (dest[i] != '\0')
 {
 i++;
 }
@@ -24,7 +24,7 @@ dest[i] = src[j];
 i++;
 j++;
 }
-dest[i] = '\10';
+dest[i] = '\0';
 return (dest);
 
 }
