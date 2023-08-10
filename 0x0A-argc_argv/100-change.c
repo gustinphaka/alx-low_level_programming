@@ -37,7 +37,6 @@ result++;
 num -= coins[j];
 }
 }
-printf("%d\n", results);
+printf("%d\n", result);
 return (0);
 }
-
