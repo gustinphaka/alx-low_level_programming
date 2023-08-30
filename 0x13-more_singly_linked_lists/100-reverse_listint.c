@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * reverse_listint - reverse a limited list
+ * reverse_listint - reverses a limited list
  * @head: pointer to the first code in the list
  *
  * Return: pointer to the first node in the new list
