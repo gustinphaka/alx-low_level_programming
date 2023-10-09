@@ -24,9 +24,9 @@ return (i);
 }
 
 /**
- * _strcpy - copies the string pointed to by src
+ * * _strcpy - copies the string pointed to by src
  * including the terminating null byte (\0)
- * to the further pointed to by dest
+ * to the buffer pointed to by dest
  * @dest: pointer to the buffer in which we copy the string
  * @src: string to be copied
  *
@@ -38,7 +38,7 @@ char *_strcpy(char *dest, char *src)
 int len, i;
 
 len = 0;
-i
+
 while (src[len] != '\0')
 {
 len++;
@@ -52,7 +52,7 @@ return (dest);
 }
 
 /**
- * new_dog - create a new dog
+ * new_dog - creates a new dog
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
@@ -83,15 +83,9 @@ dog->owner = malloc(sizeof(char) * (len2 +1));
 if (dog->owner == NULL)
 {
 free(dog);
+free(dog->name;
 return (NULL);
 
-}
-dog->owner = malloc(sizeof(char) * (len2 +1));
-if (dog->owner == NULL)
-{
-free(dog);
-free(dog->name);
-return (NULL);
 }
 _strcpy(dog->name, name);
 _strcpy(dog->owner, owner);
