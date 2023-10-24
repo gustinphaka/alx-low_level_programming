@@ -5,13 +5,13 @@
 /**
  * struct listint_s - singly linked list
  * @n: interger
- * @next: points to the necxt node
+ * @next: points to the next node
  *
  * Description: singly linked list structure
  * for Holberton project
  */
 
-typedef struct listint_s *next;
+typedef struct listint_s
 {
 int n;
 struct listint_s *next;
